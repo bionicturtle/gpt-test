@@ -1,0 +1,64 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+My one shot prompt is lazy (aka, lazy one shot):
+
+`write an r code function that reads a text file and grabs all of the sentences that contain verbs which are in a defined vector`
+
+```{r echo=TRUE, include = TRUE}
+# Required package: stringr
+# Install package if not already installed: install.packages("stringr")
+library(tidyverse)
+
+# Function to extract sentences containing verbs from a text file
+extractSentencesWithVerbs <- function(file_path, verb_vector) {
+  # Read the text file
+  text <- readLines(file_path)
+  
+  # Initialize an empty list to store sentences with verbs
+  sentences_with_verbs <- list()
+  
+  # Iterate over each line in the text
+  for (line in text) {
+    # Split the line into sentences using regex
+    sentences <- str_split(line, "\\.|\\?|\\!")
+    
+    # Iterate over each sentence
+    for (sentence in sentences[[1]]) {
+      # Check if the sentence contains any verbs from the verb vector
+      if (any(str_detect(sentence, paste(verb_vector, collapse = "|")))) {
+        # Add the sentence to the list
+        sentences_with_verbs <- c(sentences_with_verbs, sentence)
+      }
+    }
+  }
+  
+  # Return the list of sentences with verbs
+  return(sentences_with_verbs)
+}
+
+# Example usage
+# Define the file path and verb vector
+file_path <- "https://gist.github.com/bionicturtle/eb3f2f83ee4d7e98f79ca02e4c50eb8d"
+verb_vector <- c("calculate", "compute")
+
+# Call the function
+result <- extractSentencesWithVerbs(file_path, verb_vector)
+
+# Print the extracted sentences
+str(result)
+print(result)
+
+# The two line below are the only code I (David Harper) added. WTH. I should note
+# that it's maybe not the BEST way to learn R because the loop is arguably
+# bad form but whatever ... I didn't need to lookup the regex and
+# even better: I can ask GPT to interpret the regex for me
+
+result_v <- as_vector(result)
+clean_result_v <- gsub("<td id=\".*\">|</td>", "", result_v) %>% trimws("left")
+
+```

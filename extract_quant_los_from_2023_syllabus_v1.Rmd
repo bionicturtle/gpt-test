@@ -27,7 +27,7 @@ extractSentencesWithVerbs <- function(file_path, verb_vector) {
     # Split the line into sentences using regex
     sentences <- str_split(line, "\\.|\\?|\\!")
     
-    # Iterate over each sentence
+    # Iterate over each sentence. David: loops are inelegant but it works
     for (sentence in sentences[[1]]) {
       # Check if the sentence contains any verbs from the verb vector
       if (any(str_detect(sentence, paste(verb_vector, collapse = "|")))) {

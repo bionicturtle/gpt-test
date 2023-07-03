@@ -1,0 +1,138 @@
+Evaluate, compare, and apply tools and procedures used to measure and manage risk, including quantitative measures, qualitative risk assessment techniques, and enterprise risk management
+Apply the CAPM in calculating the expected return on an asset
+Interpret beta and calculate the beta of a single asset or portfolio
+Describe and apply the Fama-French three-factor model in estimating asset returns
+Define and calculate a conditional probability
+Explain and apply Bayes’ rule
+Understand and apply the concept of a mathematical expectation of a random variable
+Explain how the expectation of a function is computed for a bivariate discrete random variable
+Explain the effects of applying linear transformations on the covariance and correlation between two random variables
+Distinguish between an estimator and an estimate
+Explain how the Law of Large Numbers (LLN) and Central Limit Theorem (CLT) apply to the sample mean
+Use sample data to estimate quantiles, including the median
+Estimate the mean of two variables and apply the CLT
+Construct and apply confidence intervals for one-sided and two-sided hypothesis tests and interpret the results of hypothesis tests with a specific confidence level
+Describe the models which can be estimated using linear regression and differentiate them from those which cannot
+Construct, apply and interpret hypothesis tests and confidence intervals for a single regression coefficient in a regression
+Construct, apply, and interpret joint hypothesis tests and confidence intervals for multiple coefficients in a regression
+Explain mean reversion and calculate a mean-reverting level
+Calculate the estimated trend value and form an interval forecast for a time series
+Describe the use of mortality tables and calculate the premium payments for a policy holder
+Identify and calculate option and forward contract payoffs
+Describe arbitrageurs’ strategy and calculate an arbitrage payoff
+Describe the implementation of a margining process; explain the determinants of and calculate initial and variation margin requirements
+Describe the process of buying stock on margin without using CCP and calculate margin requirements
+Define and calculate the basis, discuss various sources of basis risk, and explain how basis risks arise when hedging with futures
+Define cross hedging and compute and interpret the hedge ratio and hedge effectiveness
+Compute the optimal number of futures contracts needed to hedge an exposure and explain and calculate the “tailing the hedge” adjustment
+Explain the purchasing power parity theorem and use this theorem to calculate the appreciation or depreciation of a foreign currency
+Describe how a non-arbitrage assumption in the foreign exchange markets leads to the interest rate parity theorem and use this theorem to calculate forward foreign exchange rates
+Define short-selling and calculate the net profit of a short sale of a dividend-paying stock
+Define and apply commodity concepts such as storage costs, carry markets, lease rate, and convenience yield
+Describe an arbitrage transaction in commodity forwards and compute the potential arbitrage profit
+Explain the payoff function and calculate the profit and loss from an options position
+Identify and compute upper and lower bounds for option prices on non-dividend and dividend paying stocks
+Explain put-call parity and apply it to the valuation of European and American stock options, with dividends and without dividends, and express it in terms of forward prices
+Describe the use and calculate the payoffs of various spread strategies
+Identify the most commonly used day count conventions, describe the markets that each one is typically used in, and apply each to an interest calculation
+Differentiate between the clean and dirty price for a US Treasury bond; calculate the accrued interest and dirty price on a US Treasury bond
+Explain and calculate a US Treasury bond futures contract conversion factor
+Describe and compute the Eurodollar futures contract convexity adjustment
+Explain the mechanics of a plain vanilla interest rate swap and compute its cash flows
+Explain how a plain vanilla interest rate swap can be used to transform an asset or a liability and calculate the resulting cash flows
+Explain how the discount rates in a plain vanilla interest rate swap are computed
+Explain the mechanics of a currency swap and compute its cash flows
+Explain how a currency swap can be used to transform an asset or a liability and calculate the resulting cash flows
+Explain and calculate ES and compare and contrast VaR and ES
+Describe the delta-normal approach and use it to calculate VaR for non-linear derivatives
+Describe and calculate VaR for linear derivatives
+Apply the exponentially weighted moving average (EWMA) approach to estimate volatility, and describe alternative approaches to weighting historical return data
+Apply the GARCH (1,1) model to estimate volatility
+Explain and apply approaches to estimate long horizon volatility/ VaR and describe the process of mean reversion according to a GARCH (1,1) model
+Describe an example of updating correlation estimates
+Define and use the hazard rate to calculate the unconditional default probability of a credit asset
+Define recovery rate and calculate the expected loss from a loan
+Define and calculate expected loss (EL)
+Describe and apply the Vasicek model to estimate default rate and credit risk capital for a bank
+Explain why it is more difficult to calculate credit risk capital for derivatives than for loans
+Compare the basic indicator approach, the standardized approach, and the advanced measurement approach for calculating operational risk regulatory capital
+Define discount factor and use a discount function to compute present and future values
+Define spot rate and compute discount factors given spot rates
+Interpret the forward rate and compute forward rates given spot rates
+Distinguish between gross and net realized returns and calculate the realized return for a bond over a holding period including reinvestments
+Define, interpret, and apply a bond’s yield-to-maturity (YTM) to bond pricing
+Explain the following four common assumptions in carry roll-down scenarios: realized forwards, unchanged term structure, unchanged yields, and realized expectations of short-term rates; and calculate carry roll down under these assumptions
+Define and compute the DV01 of a fixed income security given a change in yield and the resulting change in price
+Define, compute, and interpret the effective duration of a fixed income security given a change in yield and the resulting change in price
+Define, compute, and interpret the convexity of a fixed income security given a change in yield and the resulting change in price
+Explain the process of calculating the effective duration and convexity of a portfolio of fixed income securities
+Define, calculate, and interpret key rate 01 and key rate duration
+Relate key rates, partial 01s, and forward-bucket 01s and calculate the forward-bucket 01 for a shift in rates in one or more buckets
+Describe how the value calculated using a binomial model converges as time periods are added
+Define and calculate delta of a stock option
+Define implied volatilities and describe how to compute implied volatilities from market prices of options using the Black-Scholes-Merton model
+Describe warrants, calculate the value of a warrant, and calculate the dilution cost of the warrant to existing shareholders
+Define and calculate the delta of a portfolio
+Define and describe theta, gamma, vega, and rho for option positions and calculate the gamma and vega for a portfolio
+Apply the bootstrap historical simulation approach to estimate coherent risk measures
+Explain how VaR can be computed and used relative to a performance benchmark
+Explain the following lessons on VaR implementation: time horizon over which VaR is estimated, the recognition of time varying volatility in VaR risk factors, and VaR backtesting
+Calculate a mean reversion rate using standard regression and calculate the corresponding autocorrelation
+Construct and apply an arbitrage argument to price a call option on a zero-coupon security using replicating portfolios
+Define risk-neutral pricing and apply it to option pricing
+Distinguish between true and risk-neutral probabilities and apply this difference to interest rate drift
+Define option-adjusted spread (OAS) and apply it to security pricing
+Describe the changes to the Basel framework for calculating market risk capital under the Fundamental Review of the Trading Book (FRTB) and the motivations for these changes
+Compare the various liquidity horizons proposed by the FRTB for different asset classes and explain how a bank can calculate its expected shortfall using the various horizons
+Identify and describe important factors used to calculate economic capital for credit risk: probability of default, exposure, and loss rate
+Define and calculate expected loss (EL)
+Define and calculate unexpected loss (UL)
+Describe a rating migration matrix and calculate the probability of default, cumulative probability of default, marginal probability of default, and annualized default rate
+Apply the Merton model to calculate default probability and the distance to default and describe the limitations of using the Merton model
+Describe linear discriminant analysis (LDA), define the Z-score and its usage, and apply LDA to classify a sample of firms by credit quality
+Describe the application of a logistic regression model to estimate default probability
+Using the Merton model, calculate the value of a firm’s debt and equity and the volatility of firm value
+Explain the relationship between credit spreads, time to maturity, and interest rates and calculate credit spread
+Define and compute the Spread ‘01
+Describe the advantages of using the CDS market to estimate hazard rates
+Define and calculate default correlation for credit portfolios
+Define and calculate Credit VaR
+Describe how Credit VaR can be calculated using a simulation of joint defaults
+Describe the treatment of excess spread in a securitization structure and estimate the value of the overcollateralization account at the end of each year
+Describe a simulation approach to calculating credit losses for different tranches in a securitization
+Provide examples of trade compression of derivative positions, calculate net notional exposure amount, and identify the party holding the net contract position in a trade compression
+Describe and calculate the following metrics for credit exposure: expected mark-to-market, expected exposure, potential future exposure, expected positive exposure and negative exposure, effective expected positive exposure, and maximum exposure
+Define and calculate incremental CVA and marginal CVA and explain how to convert CVA into a running spread
+Define and calculate the delinquency ratio, default ratio, monthly payment rate (MPR), debt service coverage ratio (DSCR), the weighted average coupon (WAC), the weighted average maturity (WAM), and the weighted average life (WAL) for relevant securitized structures
+Explain the prepayment forecasting methodologies and calculate the constant prepayment rate (CPR) and the Public Securities Association (PSA) rate
+Describe and apply an operational risk taxonomy and give examples of different taxonomies of operational risks
+Describe and apply the Level 1, 2, and 3 categories in the Basel operational risk taxonomy
+Calculate the hurdle rate and apply this rate in making business decisions using RAROC
+-	Defining and calculating risk measures
+Describe measures introduced in the 1995 and 1996 amendments, including guidelines for netting of credit exposures and methods for calculating market risk capital for assets in the trading book
+Describe and calculate the stressed VaR introduced in Basel 2
+5 and calculate the market risk capital charge
+Explain the process of calculating the incremental risk capital charge for positions held in a bank’s trading book
+Define in the context of Basel III and calculate where appropriate:
+Describe the motivations for and calculate the capital conservation buffer and the countercyclical buffer, including special rules for globally systemically important banks (G-SIBs)
+Describe and calculate ratios intended to improve the management of liquidity risk, including the required leverage ratio, the liquidity coverage ratio, and the net stable funding ratio
+Describe the revised output floor introduced as part of the Basel III reforms and approaches to be used when calculating the output floor
+Explain the elements of the new standardized approach to measure operational risk capital, including the business indicator, internal loss multiplier, and loss component, and calculate the operational risk capital requirement for a bank using this approach
+Compare the Standardized Measurement Approach (SMA) to earlier methods of calculating operational risk capital, including the Advanced Measurement Approaches (AMA)
+Explain and calculate liquidity trading risk via cost of liquidation and liquidity-adjusted VaR (LVaR)
+Calculate the expected transactions cost and the spread risk factor for a transaction and calculate the liquidity adjustment to VaR for a position to be liquidated over a number of trading days
+Summarize the process taken by a US bank to calculate its legal reserves
+Describe and apply the concepts of liquidity risk, funding cost risk, liquidity generation capacity, expected liquidity, and cash flow at risk
+Compare the different methods used to determine the pricing of deposits and calculate the price of a deposit account using cost-plus, marginal cost, and conditional pricing formulas
+Describe and calculate the available funds gap
+Describe the mechanics of repurchase agreements (repos) and calculate the settlement for a repo transaction
+Describe the contingent liquidity risk pricing process and calculate the cost of contingent liquidity risk
+Describe interest-sensitive gap management and apply this strategy to maximize a bank’s net interest margin
+Describe duration gap management and apply this strategy to protect a bank’s net worth
+Explain how stochastic discount factors are created and apply them in the valuation of assets
+Define and calculate alpha, tracking error, the information ratio, and the Sharpe ratio
+Describe Grinold’s fundamental law of active management, including its assumptions and limitations, and calculate the information ratio using this law
+Define, calculate, and distinguish between the following portfolio VaR measures: diversified and undiversified portfolio VaR, individual VaR, incremental VaR, marginal VaR, and component VaR
+Describe the risk budgeting process and calculate risk budgets across asset classes and active managers
+Describe techniques to measure the market timing ability of fund managers with a regression and with a call option model and compute return due to market timing
+Describe and apply performance attribution procedures, including the asset allocation decision, sector and security selection decision, and the aggregate contribution

@@ -44,7 +44,8 @@ extractSentencesWithVerbs <- function(file_path, verb_vector) {
 # Example usage
 # Define the file path and verb vector
 file_path <- "https://gist.github.com/bionicturtle/eb3f2f83ee4d7e98f79ca02e4c50eb8d"
-verb_vector <- c("calculate", "compute")
+# verb_vector <- c("calculate", "compute")
+verb_vector <- c("calculate", "calculating", "compute", "apply", "estimate")
 
 # Call the function
 result <- extractSentencesWithVerbs(file_path, verb_vector)
@@ -59,6 +60,11 @@ print(result)
 # even better: I can ask GPT to interpret the regex for me
 
 result_v <- as_vector(result)
-clean_result_v <- gsub("<td id=\".*\">|</td>", "", result_v) %>% trimws("left")
+result_v_clean <- gsub("<td id=\".*\">|</td>", "", result_v) %>% trimws("left")
+
+# remove first (junk tag)
+result_v_clean <- result_v_clean[-1]
+
+writeLines(result_v_clean, "quantLOS.txt")
 
 ```
